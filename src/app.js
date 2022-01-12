@@ -4,7 +4,7 @@ const app = express();
 const path = require("path");
 const hbs = require("hbs");
 const { registerPartials } = require("hbs");
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 //public static path
 //console.log(path.join(__dirname, "../public"));

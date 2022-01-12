@@ -48,13 +48,13 @@ else{
     {
         temp_status.innerHTML="<i class='fas fa-cloud-rain' style='color:#a4b0be;'></i>"
     }
-    else if (tempmood == "Thunderstorm") {
+    else if (tempMood == "Thunderstorm") {
         temp_status.innerHTML =
             "<i class='fas  fa-poo-storm' style='color: yellow;'></i>";
-    } else if (tempmood == "Haze") {
+    } else if (tempMood == "Haze") {
         temp_status.innerHTML =
             "<i class='fas  fa-smog' style='color: #a4b0be;'></i>";
-    } else if (tempmood == "Mist") {
+    } else if (tempMood == "Mist") {
         temp_status.innerHTML =
             "<i class='fas  fa-smog' style='color: #a4b0be;'></i>";
     }
